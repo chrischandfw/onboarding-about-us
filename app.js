@@ -9,7 +9,7 @@ const divContainer = document.querySelector('.contain');
 const name = document.getElementById('name');
 
 const pronouns = document.querySelector('.pronouns');
-const favPlace = document.querySelector('.favplace'); 
+const favPlace = document.querySelector('.favPlace'); 
 const hobbies = document.querySelector('.hobbies'); 
 
 
