@@ -23,7 +23,8 @@ The Plan
 - elements in div (h4, p, span, h6, ul for hobbies)
 - grab dom elements in app.js and create eventListener for dropdown
 - create and implement function to render the appropriate person
-![wireframe](/assets/wireframe-about-us.png)
+
+![wireframe](/assets/wireframe.png)
 
 Additional considerations:
 
