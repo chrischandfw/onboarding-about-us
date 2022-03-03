@@ -9,7 +9,7 @@ export const people = [
     {
         id: 2,
         name: 'Chris',
-        pronouns: 'she/her'
+        pronouns: 'she/her',
         favorite_place: 'Buddhist Temple',
         hobbies: ['pc gaming', 'reading', 'dancing'],
     }
