@@ -6,10 +6,10 @@ console.log(people, 'people')
 const selectElement = document.querySelector('.select');
 
 const divContainer = document.querySelector('.contain');
-const name = document.getElementById('name');
+const name = document.getElementById('.name');
 
 const pronouns = document.querySelector('.pronouns');
-const favPlace = document.querySelector('.favPlace'); 
+const favPlace = document.querySelector('.favorite_place'); 
 const hobbies = document.querySelector('.hobbies'); 
 
 
@@ -19,12 +19,12 @@ const hobbies = document.querySelector('.hobbies');
 selectElement.addEventListener('change', (e) => {
     const selected = event.target.value;
 	hobbies.innerHTML = ' ';
-	divContainer.classList.remove('Pete', 'Madden');
+	contain.classList.remove('Delaney', 'Chris');
 	if (selected === 'one') {
 		renderPerson(0);
 } else {
 	renderPerson(1);
-});
+};
 
 function renderPerson(index){
     divContainer.classList.add(`${people[index].name}`);	
@@ -37,6 +37,9 @@ function renderPerson(index){
 		li.textContent = hobby;
 		hobbies.appendChild(li);
 }
+
+
+
     // get user input
     // use user input to update state 
     // update DOM to reflect the new state
