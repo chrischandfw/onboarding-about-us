@@ -23,6 +23,8 @@ The Plan
 - grab dom elements in app.js and create eventListener for dropdown
 - create and implement function to render the appropriate person
 
+![wireframe](/assets/wireframe.png)
+
 Additional considerations:
 
 -   Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
