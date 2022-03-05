@@ -1,4 +1,4 @@
-## The Golden Rule:
+## The Golden Rule
 
 🦸 🦸‍♂️ `Stop starting and start finishing.` 🏁
 
@@ -14,13 +14,25 @@ If you work on more than one feature at a time, you are guaranteed to multiply y
 1. **Think about how to validate each of your features according to a Definition of Done**
 1. **Consider what features _depend_ on what other features. Use this dependency logic to figure out what order to complete tasks.**
 
+The Plan
+
+- data.js file with array of people[name, pronouns, favorite_place, hobbies]
+- template: head body header main footer
+- header text, main elements, select and div
+- options in select (with values)
+- elements in div (h4, p, span, h6, ul for hobbies)
+- grab dom elements in app.js and create eventListener for dropdown
+- create and implement function to render the appropriate person
+
+![wireframe](/assets/wireframe.png)
+
 Additional considerations:
 
--   Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
--   Consider your data model.
-    -   What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
-    -   What are the key/value pairs?
-    -   What arrays might you need?
-    -   What needs to live in a persistence layer?
--   Is there some state we need to initialize?
--   Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
+- Ask: which of your HTML elements need to be hard coded, and which need to be dynamically generated?
+- Consider your data model.
+  - What kinds of objects (i.e., Dogs, Friends, Todos, etc) will you need?
+  - What are the key/value pairs?
+  - What arrays might you need?
+  - What needs to live in a persistence layer?
+- Is there some state we need to initialize?
+- Ask: should any of this work be abstracted into functions? (i.e., is the work complicated? can it be reused?)
